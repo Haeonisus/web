@@ -20,12 +20,13 @@ body {
 header {
   background-color: #424245;
   color: #fff;
-  padding: 20px;
+  padding: 60px 20px;
   display: flex;
   flex-direction: row;
   column-gap: 5%;
   align-items: center;
   justify-content: space-between;
+  font-size: 25px;
 }
 
 nav ul {
@@ -480,16 +481,16 @@ section#resume a.example:hover {
 
 /* Style the example works */
 
-section#skill .three-d, .soil {
+section#skill .three-d, section#skill .soil {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
   justify-items: center;
 }
-section#skill .three-d img, .soil img {
+section#skill .three-d img, section#skill .soil img {
   width: 70%;
 }
-section#skill .three-d img:hover, .soil img:hover {
+section#skill .three-d img:hover, section#skill .soil img:hover {
   box-shadow: 8px 8px 2px 1px gray;
   margin: 10px;
   border: dotted black 4px;
@@ -498,11 +499,11 @@ section#skill .three-d img:hover, .soil img:hover {
   padding: 3px;
   text-decoration: none;
 }
-section#skill .three-d a, .soil a {
+section#skill .three-d a, section#skill .soil a {
   text-align: center;
 }
 
-section#skill div.robotics, div.bubblehead {
+section#skill div.robotics, section#skill  div.bubblehead {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -541,38 +542,6 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-
-@media screen and (min-width: 480px) {
-  body {
-    font-size: 18px;
-  }
-
-  header {
-    background-color: #424245;
-    color: #fff;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    column-gap: 5%;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  section h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-
-  section#home p {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-
-  section#profile img.head {
-    width: 45%;
-  }
-  
 }
 
 @media screen and (min-width: 768px) {
