@@ -41,7 +41,7 @@ nav li {
 
 nav a {
   color: #fff;
-  font-size: 17px;
+  font-size: 20px;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
@@ -100,9 +100,13 @@ section#profile img.head {
 }
 
 section#home div.me {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+section#home div.me img{
+  width: 50%;
+  margin-bottom: 20px;
 }
 
 section#profile div.me {
@@ -111,7 +115,7 @@ section#profile div.me {
   justify-content: center;
 }
 
-section#home div.me img, section#profile div.me img {
+section#profile div.me img {
   width: 100%;
   margin-bottom: 20px;
 }
@@ -526,7 +530,8 @@ section#skill h3 {
 footer {
   background-color: #424245;
   color: #fff;
-  padding: 10px;
+  font-size: 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
@@ -544,151 +549,3 @@ footer a:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    font-size: 20px;
-  }
-
-  main {
-    padding: 40px;
-    margin: 20px 20px;
-  }
-
-  section h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-
-  section#home p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-
-  section#profile img.head {
-    width: 35%;
-    border-radius: 50%;
-  }
-
-  section#skill .three-d {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  section#skill .three-d img {
-    width: 70%;
-  }
-
-  section#skill div.work {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  section#skill a.chess, a.charm {
-    grid-column: 1/-1;
-  }
-
-  section#skill img.chess, img.charm {
-    width: 35%;
-  }
-  
-  section#skill video {
-    width: 40%;
-    height: 350px;
-  }
-  
-  section#skill div.soil {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  section#project3 div.graphs {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  nav a, header p {
-    font-size: 20px;
-  }
-
-  section h2 {
-    font-size: 28px;
-  }
-
-  body {
-    font-size: 20px;
-  }
-
-  main {
-    padding: 40px;
-    margin: 40px 40px;
-  }
-
-  section#home h2 {
-    font-size: 28px;
-  }
-
-  section#home p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-
-  section#home div.me {
-    justify-items: center;
-  }
-
-  section#home div.me img {
-    width: 50%;
-  }
-
-  section#projects li {
-    width: 70%;
-  }
-
-  section#profile img.head {
-    width: 40%;
-  }
-
-  section#profile div.division {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  section#profile div.prof {
-    width: 40%;
-  }
-
-  section#profile div.word {
-    width: 50%;
-  }
-
-  section#profile div.me{
-    display: none;
-  }
-
-  section#skill video {
-    width: 30%;
-    height: 400px;
-  }
-
-  section#skill div.three-d, section#skill div.soil {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  section#skill .three-d img {
-    width: 60%;
-  }
-
-  section#skill a.chess {
-    grid-column: 1/span 1;
-  }
-
-  section#skill img.charm {
-    width: 70%;
-  }
-
-  section#skill a.charm {
-    grid-column: 3/-1;
-  }
-  
-}
