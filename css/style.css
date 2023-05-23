@@ -22,11 +22,15 @@ header {
   color: #fff;
   padding: 60px 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   column-gap: 5%;
   align-items: center;
   justify-content: space-between;
   font-size: 25px;
+}
+
+header p {
+  margin-bottom: 30px;
 }
 
 nav ul {
@@ -36,7 +40,11 @@ nav ul {
 }
 
 nav li {
-  margin-right: 20px;
+  margin-right: 40px;
+}
+
+nav li.last {
+  margin-right: 0px;
 }
 
 nav a {
@@ -268,6 +276,10 @@ section#project2 div.info {
   grid-template-columns: 1fr 1fr;
 }
 
+section#project2 div.info p {
+  font-size: 20px;
+}
+
 section#project2 h1, h2 {
   font-size: 24px;
   font-weight: bold;
@@ -315,6 +327,10 @@ section#project3 {
 section#project3 div.info {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+section#project3 div.info p {
+  font-size: 20px;
 }
 
 section#project3 h1, h2 {
@@ -370,6 +386,10 @@ section#project4 {
 section#project4 div.info {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+section#project4 div.info p {
+  font-size: 20px;
 }
 
 section#project4 div.member {
