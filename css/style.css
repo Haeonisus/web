@@ -115,7 +115,7 @@ section h1 {
 
 section p {
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 section img {
@@ -151,16 +151,6 @@ section#profile div.me {
 section#profile div.me img {
   width: 100%;
   margin-bottom: 20px;
-}
-
-section#home h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-section#home p {
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 /* Style the profile section */
@@ -533,7 +523,7 @@ section#resume li.sub p {
 section#resume a.example {
   text-decoration: none;
   color: #0066cc;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 section#resume a.example:hover {
@@ -593,6 +583,7 @@ footer {
 }
 
 footer p {
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -600,9 +591,20 @@ footer a {
   color: #fff;
   text-decoration: none;
   margin: 0 5px;
+  padding: 5px;
+  border-bottom: white solid;
 }
 
 footer a:hover {
   text-decoration: underline;
+  border-bottom: white dotted;
+  text-decoration: none;
 }
 
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 40px;
+  margin-bottom: 20px;
+}
