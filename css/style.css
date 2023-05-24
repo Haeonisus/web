@@ -72,6 +72,33 @@ nav a.active {
   padding: 4px;
 }
 
+div.select {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.select button{
+  background-color: #424245;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+}
+
+div.select a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+div.select button:hover {
+  background-color: #424245;
+  padding: 15px 32px;
+  text-align: center;
+  box-shadow: 5px 5px 2px 1px #424245;
+  border: solid yellow;
+}
+
 /* Style the main content */
 
 main {
