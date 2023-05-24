@@ -20,7 +20,7 @@ body {
 header {
   background-color: #424245;
   color: #fff;
-  padding: 60px 20px;
+  padding: 0px 20px 60px 20px;
   display: flex;
   flex-direction: column;
   column-gap: 5%;
@@ -31,6 +31,10 @@ header {
 
 header p {
   margin-bottom: 30px;
+}
+
+img.logo {
+  width: 70%;
 }
 
 nav ul {
