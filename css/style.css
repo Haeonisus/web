@@ -83,20 +83,19 @@ div.select button{
   border: none;
   padding: 15px 32px;
   text-align: center;
-}
-
-div.select a{
   color: white;
   text-decoration: none;
   font-size: 15px;
 }
 
 div.select button:hover {
-  background-color: #424245;
+  background-color: white;
+  color: #424245;
   padding: 15px 32px;
   text-align: center;
   box-shadow: 5px 5px 2px 1px #424245;
-  border: solid yellow;
+  border: solid #424245;
+  border-radius: 4px;
 }
 
 /* Style the main content */
