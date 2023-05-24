@@ -167,7 +167,7 @@ section#projects {
 
 section#projects p {
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -193,7 +193,7 @@ section#projects li:hover {
 }
 
 section#projects h2 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 section#projects li h2 {
@@ -522,7 +522,7 @@ section#resume li.sub p {
 section#resume a.example {
   text-decoration: none;
   color: #0066cc;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 section#resume a.example:hover {
