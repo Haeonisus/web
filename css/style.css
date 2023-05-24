@@ -341,6 +341,11 @@ section#project3 h1, h2 {
   margin-bottom: 10px;
 }
 
+section#project3 div.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 section#project3 h1 {
   color: #333;
 }
@@ -387,6 +392,11 @@ section#project4 {
 
 section#project4 div.member {
   grid-column: 1/-1;
+}
+
+section#project4 div.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 section#project4 h1, h2 {
@@ -575,11 +585,23 @@ footer div {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
   header {
-    padding: 0px 20px;
-    flex-direction: row;
+    padding: 0px 20px 20px 20px;
+    flex-direction: column;
   }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  img.logo {
+    width: 40%;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
 
   nav a {
     font-size: 20px;
