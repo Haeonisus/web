@@ -48,7 +48,7 @@ nav li.last {
 
 nav a {
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -152,11 +152,6 @@ section#profile div.me img {
   margin-bottom: 20px;
 }
 
-/* Style the profile section */
-section#profile h2 {
-  font-size: 24px;
-}
-
 /* Style the projects section */
 
 section#projects {
@@ -167,7 +162,6 @@ section#projects {
 
 section#projects p {
   text-align: center;
-  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -190,10 +184,6 @@ section#projects li {
 section#projects li:hover {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transform: translateY(-5px);
-}
-
-section#projects h2 {
-  font-size: 26px;
 }
 
 section#projects li h2 {
@@ -301,10 +291,6 @@ section#project2 div.info {
   grid-template-columns: 1fr 1fr;
 }
 
-section#project2 div.info p {
-  font-size: 20px;
-}
-
 section#project2 h1, h2 {
   font-size: 24px;
   font-weight: bold;
@@ -347,15 +333,6 @@ section#project3 {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-}
-
-section#project3 div.info {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-section#project3 div.info p {
-  font-size: 20px;
 }
 
 section#project3 h1, h2 {
@@ -406,15 +383,6 @@ section#project4 {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-}
-
-section#project4 div.info {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-section#project4 div.info p {
-  font-size: 20px;
 }
 
 section#project4 div.member {
@@ -522,7 +490,6 @@ section#resume li.sub p {
 section#resume a.example {
   text-decoration: none;
   color: #0066cc;
-  font-size: 20px;
 }
 
 section#resume a.example:hover {
@@ -576,8 +543,8 @@ section#skill h3 {
 footer {
   background-color: #424245;
   color: #fff;
-  font-size: 20px;
-  padding: 40px 20px;
+  font-size: 18px;
+  padding: 20px 20px;
   text-align: center;
 }
 
@@ -608,7 +575,7 @@ footer div {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
   header {
     padding: 0px 20px;
     flex-direction: row;
