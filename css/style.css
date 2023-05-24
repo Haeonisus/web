@@ -26,11 +26,6 @@ header {
   column-gap: 5%;
   align-items: center;
   justify-content: space-between;
-  font-size: 25px;
-}
-
-header p {
-  margin-bottom: 30px;
 }
 
 img.logo {
@@ -53,9 +48,8 @@ nav li.last {
 
 nav a {
   color: #fff;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
-  transition: all 0.2s ease-in-out;
 }
 
 nav a:hover {
@@ -142,6 +136,11 @@ section#home p {
   line-height: 1.5;
 }
 
+/* Style the profile section */
+section#profile h2 {
+  font-size: 24px;
+}
+
 /* Style the projects section */
 
 section#projects {
@@ -152,6 +151,8 @@ section#projects {
 
 section#projects p {
   text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 section#projects ul {
@@ -173,6 +174,10 @@ section#projects li {
 section#projects li:hover {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transform: translateY(-5px);
+}
+
+section#projects h2 {
+  font-size: 24px;
 }
 
 section#projects li h2 {
@@ -501,6 +506,7 @@ section#resume li.sub p {
 section#resume a.example {
   text-decoration: none;
   color: #0066cc;
+  font-size: 16px;
 }
 
 section#resume a.example:hover {
