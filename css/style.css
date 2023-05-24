@@ -390,13 +390,13 @@ section#project4 {
   padding: 20px;
 }
 
-section#project4 div.member {
-  grid-column: 1/-1;
-}
-
 section#project4 div.info {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+section#project4 div.member {
+  grid-column: 1/-1;
 }
 
 section#project4 h1, h2 {
@@ -583,22 +583,6 @@ footer div {
   justify-content: center;
   column-gap: 40px;
   margin-bottom: 20px;
-}
-
-@media screen and (min-width: 480px) {
-  header {
-    padding: 0px 20px 20px 20px;
-    flex-direction: column;
-  }
-
-  nav a {
-    font-size: 18px;
-  }
-
-  img.logo {
-    width: 40%;
-  }
-
 }
 
 @media screen and (min-width: 768px) {
